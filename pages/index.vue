@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        Hello World - Albino Solutions
+        Hello World - Giga Solutions
       </h1>
       <div class="links">
         <a
