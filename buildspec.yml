@@ -12,4 +12,7 @@ phases:
       - ls -na
   post_build:
     commands:
-      - echo Deploy 
+      - echo Deploy
+  artifacts:
+   files:
+    - '**/*' 
