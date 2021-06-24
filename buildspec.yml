@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo build Phase
+      - yarn install 
+      - echo build Phase
+      - cd $CODEBUILD_SRC_DIR
+      - yarn build 
+      - yarn generate
+      - ls -na
+  post_build:
+    commands:
+      - echo Deploy 
